@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Olive t-shirt",
+      "price": 29.99,
+      "image": "images/product2.png",
+      "category": "Clothing"
+    },
+    {
+      "id": 2,
+      "name": "full Sleeve t-shirt",
+      "price": 19.99,
+      "image": "images/product3.png",
+      "category": "Clothing"
+    },
+    {
+        "id": 3,
+        "name": "Grey t-shirt",
+        "price": 19.99,
+        "image": "images/product4.png",
+        "category": "Clothing"
+    },
+    {
+        "id": 4,
+        "name": "Black track pant",
+        "price": 19.99,
+        "image": "images/product5.png",
+        "category": "Clothing"
+    },
+    {
+        "id": 5,
+        "name": "Apple 15 pro max",
+        "price": 400.99,
+        "image": "images/Apple-iphone-15-pro-max.png",
+        "category": "Smartphones"
+    },
+    {
+        "id": 6,
+        "name": "Mi Note 12 pro",
+        "price": 109.99,
+        "image": "images/mi-note-12-pro.png",
+        "category": "Smartphones"
+    },
+    {
+        "id": 7,
+        "name": "Moto Razr",
+        "price": 200.99,
+        "image": "images/moto_razr_40_ultra-2.webp",
+        "category": "Smartphones"   
+    },
+    {
+        "id": 8,
+        "name": "Google Pixel 6a",
+        "price": 199.99,
+        "image": "images/Google-Pixel-6a.png",
+        "category": "Smartphones" 
+    }
+  ]
+  
