@@ -81,6 +81,9 @@ body {
     width: 25%;
     outline: none;
 }
+.mob-search{
+    display: none;
+}
    .side-bar{
     display: none;
    }
@@ -397,8 +400,8 @@ select#sortOptions {
       }
       .nav-menu {
         position: fixed;
-        left: -100%;
-        top: 7rem;
+        left: -125%;
+        top: 4rem;
         flex-direction: column;
         background-color: #fff;
         width: 100% !important;
@@ -409,10 +412,11 @@ select#sortOptions {
         z-index: 1;
       }
       .nav-menu.active {
-        left: -9px;
+        left: 0;
+        padding: 0;
       }
       .nav-item {
-        margin: 2.5rem 0;
+        margin: 1rem 0;
       }
       .hamburger {
         display: block;
@@ -431,11 +435,44 @@ select#sortOptions {
         transform: translateY(-8px) rotate(-45deg);
     }
     p.prod-title {
-        font-size: 18px;
+        font-size: 15px;
     }
 
-    .logo{
+    .logo {
         font-size: 20px;
+        width: 50%;
+    }
+    .cart-button .fa-shopping-cart {
+        font-size: 1.3em;
+    }
+    .cart-button .fa-box {
+        font-size: 0.8em;
+    }
+    .cart-button {
+        width: 105px;
+        height: 35px;
+    }
+
+    .filters {
+        justify-content: center;
+    }
+    select#sortOptions {
+        width: 50%;
+    }
+    select#categoryFilter {
+        width: 50%;
+    }
+    input.search-bar{
+        width: 100%;
+    }
+    .mob-search{
+        display: flex;
+    }
+    .main-search{
+        display: none;
+    }
+    .header-main {
+        flex-wrap: wrap;
     }
  
 }
